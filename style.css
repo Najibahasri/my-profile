@@ -1,0 +1,115 @@
+/* fonts and colors*/
+
+body {
+	background-color: #F9FCFB;
+	line-height: 1.5;   
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Crete Round', serif;
+}
+
+a:hover{
+	color: black;
+}
+
+h1{
+	color: #0F4C75;
+	font-size: 35px;
+	font-family: 'Crete Round', serif;
+}
+
+h2{
+	font-family: 'Bree Serif' , serif;
+	font-size: 23px;
+	font-style: normal;
+}
+
+h3{
+	font-size: 17px;
+	font-family: 'Bitter' , serif;
+}
+
+p{
+	font-family: 'Neuton' , serif;
+	font-size: 18px;
+	font-style: normal;
+}
+
+/* Custom design with class*/
+
+.container{
+	margin: 40px auto;
+	width: 700px;
+}
+
+.box-beige{
+	background-color: white;
+	margin: 20px 0px;
+	text-align: center;
+	padding: 40px;
+	border-radius: 25px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.6);	
+}
+
+.img-circle{
+	border-radius: 50%;
+	height: 120px;
+}
+
+.btn-black{
+	background-color: #94D3AC;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-black:hover{
+	color: white;
+	background-color: #347474;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 25px;
+	color: #6E5773;
+}
+
+.list-inline i:hover{
+	color: #FAAFFF;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	/* For a screen < 720px, this CSS will be read */
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	/* For a screen < 540px, this CSS wiil be read */
+	.container {
+		width: 300px;
+	}
+}
